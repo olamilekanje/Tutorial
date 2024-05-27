@@ -15,6 +15,7 @@ const posts = [
 
   app.get('/',(req, res)=>{
     res.status(200).json('Welcome to hompage')
+    
 });
 
 app.post('/ola',(req, res)=>{
